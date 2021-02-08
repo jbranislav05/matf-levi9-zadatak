@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('./market.jpg');
+  background-size: 1600px 900px;
+}
+
+nav {
+  background: green;
+  padding: 0.1px;
+  text-align: center;
+}
+
+.ul {
+  list-style-type: none;
+}
+li {
+  padding: 20px;
+  display: inline;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+}
+#id {
+  display: flex;
+  justify-content: center;
+  margin-top: 15%;
+  position: relative;
+  vertical-align: sub;
+}
+
+#dd {
+  margin-left: 700px;
+  margin-top: 250px;
+}
+
+#td {
+  text-align: right;
+}
